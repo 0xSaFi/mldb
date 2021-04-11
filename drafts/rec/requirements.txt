@@ -1,3 +1,4 @@
 -e git+https://github.com/simlmx/pymldb.git#egg=pymldb
 -e .
 ipython
+pygments>=2.7.4 # not directly required, pinned by Snyk to avoid a vulnerability
